@@ -6,7 +6,7 @@ Descripcion de las entidades:
   4. Empleado, los trabajadores destinados a los viveros
   5. Cliente, aquellos que pertenecen al programa Tajinaste Plus
   6. Pedid, las compras realizadas por los clientes fidelizados
-Descripcion de los atributos de las entidades y relaciones
+Descripcion de los atributos de las entidades y relaciones:
   1. Viveros: Coordenadas, refleja la latitud y longitud de la localizacion fisica.
      ID_Vivero, codigo de identificacion del vivero
   2. Zona: Coordenadas, refleja la latitud y longitud de la localizacion fisica.
@@ -21,7 +21,7 @@ Descripcion de los atributos de las entidades y relaciones
   8. Relacion Empleado-Zona: Historico Destinos, registro de las diferentes zonas a las que ha sido asignado un empleado
   9. Relacion Producto-Pedido: Cantidad, numero de productos vendidos en ese pedido
      Precio, coste del pedido
-Descripcion de cada una de las relaciones
+Descripcion de cada una de las relaciones:
   1. Vivero-Zona, relacion uno a muchos, un vivero puede tener muchas zonas, una zona solo puede estar contenida en un vivero, relacion de dependencia, sin vivero no puede existir una zona
   2. Zona-Producto, relacion muchos a muchos, una zona puede tener muchos productos y un mismo producto puede estar en varias zonas
   3. Empleado-Zona, muchos a muchos, una misma zona puede tener varios empleados asignados y un mismo empleado puede haber sido asignado durante un periodo prolongado de tiempo a varias zonas, no obstante no puede pertenecer a dos zonas a la vez en un mismo periodo
